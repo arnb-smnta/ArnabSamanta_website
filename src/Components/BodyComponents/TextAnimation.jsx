@@ -4,10 +4,10 @@ import { TypeAnimation } from "react-type-animation";
 
 const TextAnimation = () => {
   useEffect(() => {
-    const i = setInterval(() => {
+    /*const i = setInterval(() => {
       changetam();
     }, 500);
-    return () => clearInterval(i);
+    return () => clearInterval(i);*/
   });
   const [tam, usetam] = useState(0);
   const changetam = () => {
@@ -16,13 +16,8 @@ const TextAnimation = () => {
     } else usetam(tam + 1);
   };
   return (
-    <div className="text-6xl w-max">
-      <p>
-        I am a{" "}
-        <p className="animate-typing overflow-hidden whitespace-nowrap border-r-4 border-r-black pr-5 text-5xl text-black font-bold">
-          {textanimationlist[tam]}{" "}
-        </p>
-      </p>
+    <div className="text-6xl border border-black">
+      <p>I am a {textanimationlist[tam]}</p>
     </div>
   );
 };

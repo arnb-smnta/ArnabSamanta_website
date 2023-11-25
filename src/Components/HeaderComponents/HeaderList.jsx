@@ -3,7 +3,7 @@ import { menulistitems } from "../../Constants/Constants";
 
 const HeaderList = () => {
   return (
-    <div className="bg-blue-400 ">
+    <div className="bg-blue-400">
       <ul className="flex justify-center">
         {menulistitems.map((m) => (
           <li className="pl-4 hover:underline font-extrabold pt-2">
