@@ -3,6 +3,7 @@ import Header from "./Components/Header";
 import Body from "./Components/Body";
 import { Provider } from "react-redux";
 import AppStore from "./Components/ReduxComponents/AppStore";
+import Footer from "./Components/Footer";
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
       <>
         <Header />
         <Body />
+        <Footer />
       </>
     </Provider>
   );

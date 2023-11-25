@@ -69,4 +69,96 @@ export const Quotes = [
     imglink:
       "https://scontent.fccu2-2.fna.fbcdn.net/v/t1.18169-9/12985341_129132354156112_2866264952909625164_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=be3454&_nc_ohc=8tyA7CUUg_kAX8nMdOq&_nc_ht=scontent.fccu2-2.fna&oh=00_AfAEvWLGtkip2wpMUALyESNeRYywb4_TINHx7NlGI5YxbQ&oe=65890636",
   },
+  {
+    name: "Mitali Samamta",
+    quote:
+      "Everything gets sorted out in the end if its not sorted its not the end",
+    imglink:
+      "https://scontent.fccu2-2.fna.fbcdn.net/v/t1.18169-9/12985341_129132354156112_2866264952909625164_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=be3454&_nc_ohc=8tyA7CUUg_kAX8nMdOq&_nc_ht=scontent.fccu2-2.fna&oh=00_AfAEvWLGtkip2wpMUALyESNeRYywb4_TINHx7NlGI5YxbQ&oe=65890636",
+  },
+  {
+    name: "Mitali Samamta",
+    quote:
+      "Everything gets sorted out in the end if its not sorted its not the end",
+    imglink:
+      "https://scontent.fccu2-2.fna.fbcdn.net/v/t1.18169-9/12985341_129132354156112_2866264952909625164_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=be3454&_nc_ohc=8tyA7CUUg_kAX8nMdOq&_nc_ht=scontent.fccu2-2.fna&oh=00_AfAEvWLGtkip2wpMUALyESNeRYywb4_TINHx7NlGI5YxbQ&oe=65890636",
+  },
+  {
+    name: "Mitali Samamta",
+    quote:
+      "Everything gets sorted out in the end if its not sorted its not the end",
+    imglink:
+      "https://scontent.fccu2-2.fna.fbcdn.net/v/t1.18169-9/12985341_129132354156112_2866264952909625164_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=be3454&_nc_ohc=8tyA7CUUg_kAX8nMdOq&_nc_ht=scontent.fccu2-2.fna&oh=00_AfAEvWLGtkip2wpMUALyESNeRYywb4_TINHx7NlGI5YxbQ&oe=65890636",
+  },
+  {
+    name: "Mitali Samamta",
+    quote:
+      "Everything gets sorted out in the end if its not sorted its not the end",
+    imglink:
+      "https://scontent.fccu2-2.fna.fbcdn.net/v/t1.18169-9/12985341_129132354156112_2866264952909625164_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=be3454&_nc_ohc=8tyA7CUUg_kAX8nMdOq&_nc_ht=scontent.fccu2-2.fna&oh=00_AfAEvWLGtkip2wpMUALyESNeRYywb4_TINHx7NlGI5YxbQ&oe=65890636",
+  },
+  {
+    name: "Mitali Samamta",
+    quote:
+      "Everything gets sorted out in the end if its not sorted its not the end",
+    imglink:
+      "https://scontent.fccu2-2.fna.fbcdn.net/v/t1.18169-9/12985341_129132354156112_2866264952909625164_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=be3454&_nc_ohc=8tyA7CUUg_kAX8nMdOq&_nc_ht=scontent.fccu2-2.fna&oh=00_AfAEvWLGtkip2wpMUALyESNeRYywb4_TINHx7NlGI5YxbQ&oe=65890636",
+  },
+  {
+    name: "Mitali Samamta",
+    quote:
+      "Everything gets sorted out in the end if its not sorted its not the end",
+    imglink:
+      "https://scontent.fccu2-2.fna.fbcdn.net/v/t1.18169-9/12985341_129132354156112_2866264952909625164_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=be3454&_nc_ohc=8tyA7CUUg_kAX8nMdOq&_nc_ht=scontent.fccu2-2.fna&oh=00_AfAEvWLGtkip2wpMUALyESNeRYywb4_TINHx7NlGI5YxbQ&oe=65890636",
+  },
+  {
+    name: "Mitali Samamta",
+    quote:
+      "Everything gets sorted out in the end if its not sorted its not the end",
+    imglink:
+      "https://scontent.fccu2-2.fna.fbcdn.net/v/t1.18169-9/12985341_129132354156112_2866264952909625164_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=be3454&_nc_ohc=8tyA7CUUg_kAX8nMdOq&_nc_ht=scontent.fccu2-2.fna&oh=00_AfAEvWLGtkip2wpMUALyESNeRYywb4_TINHx7NlGI5YxbQ&oe=65890636",
+  },
+  {
+    name: "Mitali Samamta",
+    quote:
+      "Everything gets sorted out in the end if its not sorted its not the end",
+    imglink:
+      "https://scontent.fccu2-2.fna.fbcdn.net/v/t1.18169-9/12985341_129132354156112_2866264952909625164_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=be3454&_nc_ohc=8tyA7CUUg_kAX8nMdOq&_nc_ht=scontent.fccu2-2.fna&oh=00_AfAEvWLGtkip2wpMUALyESNeRYywb4_TINHx7NlGI5YxbQ&oe=65890636",
+  },
+  {
+    name: "Arpan Samanta",
+    quote: "Willingness to change the world will ultimately change it",
+    imglink:
+      "https://scontent.fccu2-3.fna.fbcdn.net/v/t31.18172-8/20232085_103646603649208_7087679707615104286_o.jpg?_nc_cat=108&ccb=1-7&_nc_sid=7a1959&_nc_ohc=ngymvzi62mEAX8qRa8F&_nc_ht=scontent.fccu2-3.fna&oh=00_AfCMslKKJDg4QDzxVj9hR9ujdHzp5yN9FzrvCHsOqCLbMA&oe=6588FDBA",
+  },
+  {
+    name: "Arpan Samanta",
+    quote: "Willingness to change the world will ultimately change it",
+    imglink:
+      "https://scontent.fccu2-3.fna.fbcdn.net/v/t31.18172-8/20232085_103646603649208_7087679707615104286_o.jpg?_nc_cat=108&ccb=1-7&_nc_sid=7a1959&_nc_ohc=ngymvzi62mEAX8qRa8F&_nc_ht=scontent.fccu2-3.fna&oh=00_AfCMslKKJDg4QDzxVj9hR9ujdHzp5yN9FzrvCHsOqCLbMA&oe=6588FDBA",
+  },
+  {
+    name: "Arpan Samanta",
+    quote: "Willingness to change the world will ultimately change it",
+    imglink:
+      "https://scontent.fccu2-3.fna.fbcdn.net/v/t31.18172-8/20232085_103646603649208_7087679707615104286_o.jpg?_nc_cat=108&ccb=1-7&_nc_sid=7a1959&_nc_ohc=ngymvzi62mEAX8qRa8F&_nc_ht=scontent.fccu2-3.fna&oh=00_AfCMslKKJDg4QDzxVj9hR9ujdHzp5yN9FzrvCHsOqCLbMA&oe=6588FDBA",
+  },
+  {
+    name: "Arpan Samanta",
+    quote: "Willingness to change the world will ultimately change it",
+    imglink:
+      "https://scontent.fccu2-3.fna.fbcdn.net/v/t31.18172-8/20232085_103646603649208_7087679707615104286_o.jpg?_nc_cat=108&ccb=1-7&_nc_sid=7a1959&_nc_ohc=ngymvzi62mEAX8qRa8F&_nc_ht=scontent.fccu2-3.fna&oh=00_AfCMslKKJDg4QDzxVj9hR9ujdHzp5yN9FzrvCHsOqCLbMA&oe=6588FDBA",
+  },
+  {
+    name: "Arpan Samanta",
+    quote: "Willingness to change the world will ultimately change it",
+    imglink:
+      "https://scontent.fccu2-3.fna.fbcdn.net/v/t31.18172-8/20232085_103646603649208_7087679707615104286_o.jpg?_nc_cat=108&ccb=1-7&_nc_sid=7a1959&_nc_ohc=ngymvzi62mEAX8qRa8F&_nc_ht=scontent.fccu2-3.fna&oh=00_AfCMslKKJDg4QDzxVj9hR9ujdHzp5yN9FzrvCHsOqCLbMA&oe=6588FDBA",
+  },
+  {
+    name: "Arpan Samanta",
+    quote: "Willingness to change the world will ultimately change it",
+    imglink:
+      "https://scontent.fccu2-3.fna.fbcdn.net/v/t31.18172-8/20232085_103646603649208_7087679707615104286_o.jpg?_nc_cat=108&ccb=1-7&_nc_sid=7a1959&_nc_ohc=ngymvzi62mEAX8qRa8F&_nc_ht=scontent.fccu2-3.fna&oh=00_AfCMslKKJDg4QDzxVj9hR9ujdHzp5yN9FzrvCHsOqCLbMA&oe=6588FDBA",
+  },
 ];

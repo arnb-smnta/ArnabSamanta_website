@@ -8,16 +8,14 @@ const SkillSet = () => {
     setbuttonClicked(!buttonClicked);
   };
   return (
-    <div className="m-6 border border-black">
-      <div className="flex justify-between">
+    <div className="m-6 ">
+      <div className="flex justify-between bg-black">
         {skills.map((s, index) => (
           <SkillList skills={s} key={index} />
         ))}
       </div>
-      <div className="mt-[8rem] border border-blue-950 flex justify-center">
-        <h1 className="border border-black absolute text-2xl">
-          Download My resume
-        </h1>
+      <div className="mt-[8rem] flex justify-center">
+        <h1 className=" absolute text-2xl">Download My resume</h1>
         <div>
           <button onClick={resumeClicked}>
             <img

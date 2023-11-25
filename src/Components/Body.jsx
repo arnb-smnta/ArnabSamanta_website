@@ -7,13 +7,13 @@ import InspiringQuotes from "./BodyComponents/InspiringQuotes";
 const Body = () => {
   return (
     <div>
-      <div className="bg-cyan-500  justify-center mx-6 my-2 h-[48rem] grid grid-flow-row">
-        <div className="border border-red-600 row-span-4">
+      <div className="  justify-center mx-6  h-[48rem] grid grid-flow-row bg-[url('https://cdn.openart.ai/stable_diffusion/fc0ba13dc18d360b85bfa64bb2059808179e86ef_2000x2000.webp')] bg-cover">
+        <div className=" w-[28rem] row-span-4 mt-[4rem] ">
           {" "}
           <img
             src="https://akshaysaini.in/img/plane.gif"
             alt=""
-            className="w-[18rem] h-[18rem]"
+            className="w-[100%] relative rounded-full"
           />
         </div>
         <div className="row-span-8">
