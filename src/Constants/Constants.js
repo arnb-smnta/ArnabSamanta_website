@@ -1,4 +1,9 @@
-export const menulistitems = ["ABOUT", "SKILLS", "GITHUB", "COFFEE WITH ME"];
+export const menulistitems = [
+  { link_name: "ABOUT", link: "#about" },
+  { link_name: "SKILLS", link: "#skills" },
+  { link_name: "GITHUB", link: "#github" },
+  { link_name: "COFFEE WITH ME", link: "#coffewithme" },
+];
 export const textanimationlist = [
   "Student",
   "Proud Indian",

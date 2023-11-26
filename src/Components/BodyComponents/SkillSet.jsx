@@ -8,7 +8,7 @@ const SkillSet = () => {
     setbuttonClicked(!buttonClicked);
   };
   return (
-    <div className="m-6 ">
+    <div className="m-6 " id="skills">
       <div className="flex justify-between bg-black">
         {skills.map((s, index) => (
           <SkillList skills={s} key={index} />

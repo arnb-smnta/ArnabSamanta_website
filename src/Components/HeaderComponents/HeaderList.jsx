@@ -7,7 +7,7 @@ const HeaderList = () => {
       <ul className="flex justify-center">
         {menulistitems.map((m, index) => (
           <li key={index} className="pl-4 hover:underline font-extrabold pt-2">
-            <a href="/">{m}</a>
+            <a href={m.link}>{m.link_name}</a>
           </li>
         ))}
       </ul>

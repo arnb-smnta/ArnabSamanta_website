@@ -3,7 +3,10 @@ import { img_link } from "../Constants/Constants";
 
 const Footer = () => {
   return (
-    <div className="m-6 border border-black h-[26rem] grid grid-flow-row">
+    <div
+      className="m-6 border border-black h-[26rem] grid grid-flow-row"
+      id="coffewithme"
+    >
       <div className="row-span-6 flex border border-black h-[12rem] justify-between">
         <div className="Arnab">
           <p className="text-4xl font-">Feel free to copy</p>
