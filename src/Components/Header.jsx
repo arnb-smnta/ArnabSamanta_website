@@ -1,6 +1,7 @@
 import React from "react";
 
 import HeaderList from "./HeaderComponents/HeaderList";
+import ModeButton from "./HeaderComponents/ModeButton";
 
 const Header = () => {
   return (
@@ -16,7 +17,7 @@ const Header = () => {
         <HeaderList />
       </div>
       <div>
-        <button className=" border border-black">Darkmode</button>
+        <ModeButton />
       </div>
     </div>
   );

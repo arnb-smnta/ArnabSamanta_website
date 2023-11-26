@@ -24,7 +24,7 @@ export const LogoList = [
   },
   {
     name: "github-logo",
-    link: "https://w7.pngwing.com/pngs/914/758/png-transparent-github-social-media-computer-icons-logo-android-github-logo-computer-wallpaper-banner-thumbnail.png",
+    link: "https://seeklogo.com/images/G/github-logo-2E3852456C-seeklogo.com.png",
     redirect_link: "https://github.com/arnb-smnta",
   },
   {

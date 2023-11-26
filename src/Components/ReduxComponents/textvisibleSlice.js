@@ -2,9 +2,11 @@ import { createSlice } from "@reduxjs/toolkit";
 
 const textvisibleSlice = createSlice({
   name: "textvisible",
-  initialState: null,
+  initialState: false,
   reducers: {
-    texttoggle: (state, action) => {},
+    texttoggle: (state, action) => {
+      return (state = !state);
+    },
   },
 });
 
