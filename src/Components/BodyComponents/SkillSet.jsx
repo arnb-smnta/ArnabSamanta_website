@@ -18,15 +18,20 @@ const SkillSet = () => {
         <h1 className=" absolute text-2xl">Download My resume</h1>
         <div>
           <button onClick={resumeClicked}>
-            <img
-              src={
-                buttonClicked
-                  ? "https://akshaysaini.in/img/dwnld.gif"
-                  : "https://cdn.pixabay.com/photo/2016/12/18/13/45/download-1915753_960_720.png"
-              }
-              alt=""
-              className="h-[12rem] m-[4rem]"
-            />
+            <a
+              href="/home/arnab/Desktop/code/Arnab_Sama-Website/src/Components/files/f.txt"
+              download={"f.txt"}
+            >
+              <img
+                src={
+                  buttonClicked
+                    ? "https://akshaysaini.in/img/dwnld.gif"
+                    : "https://cdn.pixabay.com/photo/2016/12/18/13/45/download-1915753_960_720.png"
+                }
+                alt=""
+                className="h-[12rem] m-[4rem]"
+              />
+            </a>
           </button>
         </div>
       </div>

@@ -6,10 +6,10 @@ const Footer = () => {
     <div className="m-6 border border-black h-[26rem] grid grid-flow-row">
       <div className="row-span-6 flex border border-black h-[12rem] justify-between">
         <div className="Arnab">
-          <p className="text-2xl">Arnab Samanta</p>
+          <p className="text-4xl font-">Feel free to copy</p>
         </div>
         <div>
-          <p>Feel Free to copy</p>
+          <p>Arnab Samanta</p>
         </div>
         <div>
           <p>Connect with me</p>
