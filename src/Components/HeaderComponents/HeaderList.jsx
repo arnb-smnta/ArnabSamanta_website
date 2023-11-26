@@ -5,8 +5,8 @@ const HeaderList = () => {
   return (
     <div className="bg-blue-400">
       <ul className="flex justify-center">
-        {menulistitems.map((m) => (
-          <li className="pl-4 hover:underline font-extrabold pt-2">
+        {menulistitems.map((m, index) => (
+          <li key={index} className="pl-4 hover:underline font-extrabold pt-2">
             <a href="/">{m}</a>
           </li>
         ))}

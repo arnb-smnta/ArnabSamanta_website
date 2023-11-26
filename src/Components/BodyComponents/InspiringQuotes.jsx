@@ -1,20 +1,35 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import { Quotes } from "../../Constants/Constants";
 
 const InspiringQuotes = () => {
+  const [quote, setquote] = useState(0);
+  useEffect(() => {
+    const i = setInterval(() => {
+      changequote();
+    }, 1000);
+    return () => clearInterval(i);
+  });
+
+  const changequote = () => {
+    if (quote === Quotes.length - 1) {
+      setquote(0);
+    } else setquote(quote + 1);
+  };
+
   return (
-    <div className="border border-black mx-auto  items-center w-[64rem] h-[24rem] bg-red-500">
-      <div>
-        <h1 className="text-4xl mx-auto w-[24rem]">Inspiring Quotes</h1>
+    <div className="border border-black mx-auto  items-center w-[90%] h-[48rem] bg-red-500">
+      <div className="w-[40%] m-auto">
+        <h1 className="text-8xl text-white">Inspiring Quotes</h1>
       </div>
-      <div className="flex overflow-x-scroll">
-        {Quotes.map((quote) => (
-          <div className="flex h-[24rem]">
-            <img className="h-[12rem]" src={quote.imglink} alt="image" />
-            <p className="m-4 ">{quote.quote}</p>
-            <p>by {quote.name}</p>
-          </div>
-        ))}
+      <div className="m-[2rem]">
+        <img
+          src={Quotes[quote].imglink}
+          alt=""
+          className="w-[20%] m-auto h-[16rem] rounded-full"
+        />
+      </div>
+      <div className="text-center w-[80%] m-auto">
+        <p className="text-white text-4xl">"{Quotes[quote].quote}"</p>
       </div>
     </div>
   );

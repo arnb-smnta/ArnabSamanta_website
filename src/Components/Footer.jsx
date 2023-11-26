@@ -1,17 +1,28 @@
 import React from "react";
+import { img_link } from "../Constants/Constants";
 
 const Footer = () => {
   return (
-    <div className="border border-black mt-[12rem] mb-2 mx-6 h-[24rem] grid-flow-row">
-      <div className="row-span-6 border border-black  w-[72rem] mx-auto">
-        <h1 className="text-4xl">Arnab Samanta</h1>
-        <p>No Copy rigt isuues</p>
+    <div className="m-6 border border-black h-[26rem] grid grid-flow-row">
+      <div className="row-span-6 flex border border-black h-[12rem] justify-between">
+        <div className="Arnab">
+          <p className="text-2xl">Arnab Samanta</p>
+        </div>
+        <div>
+          <p>Feel Free to copy</p>
+        </div>
+        <div>
+          <p>Connect with me</p>
+        </div>
       </div>
-      <div className="row-span-6 border border-black">
+      <div className="text-center">
+        <p className="text-2xl">Made in India with love </p>
+      </div>
+      <div className="row-span-6">
         <img
-          className="w-[72rem] mx-auto mt-[8rem]"
-          src="https://akshaysaini.in/img/foot.jpg"
-          alt="Footerimage"
+          src={img_link.footer_img}
+          alt="footerimg"
+          className="w-[50%] h-[12rem] mx-auto "
         />
       </div>
     </div>

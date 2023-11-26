@@ -2,6 +2,10 @@ import React from "react";
 import { LogoList } from "../../Constants/Constants";
 
 const AboutMe = () => {
+  const clicked = (logo) => {
+    console.log(logo.redirect_link);
+    window.open(logo.redirect_link, "_blank");
+  };
   return (
     <div className=" mx-[18rem] my-4 h-[48rem] grid grid-flow-col">
       <div className=" col-span-4">
@@ -13,7 +17,13 @@ const AboutMe = () => {
 
         <div className="flex w-[20%] mx-4">
           {LogoList.map((logo) => (
-            <img src={logo.link} alt={logo.name} className="m-2" />
+            <img
+              key={logo.name}
+              src={logo.link}
+              alt={logo.name}
+              className="m-2 cursor-pointer"
+              onClick={() => clicked(logo)}
+            />
           ))}
         </div>
       </div>

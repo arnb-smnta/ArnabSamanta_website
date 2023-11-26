@@ -1,6 +1,5 @@
 import React, { useEffect, useState } from "react";
 import { textanimationlist } from "../../Constants/Constants";
-import { TypeAnimation } from "react-type-animation";
 
 const TextAnimation = () => {
   useEffect(() => {
