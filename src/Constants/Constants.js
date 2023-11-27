@@ -11,6 +11,11 @@ export const textanimationlist = [
   "React Developer ",
 ];
 
+export const funfacts = [
+  "The first computer bug was actually a bug ",
+  "Why do programmers prefer dark mode?Beacuse light attracts bugs",
+  "Debugging is like being the detective in a crime movie where youre also the murderer.",
+];
 export const LogoList = [
   {
     name: "insta-logo",

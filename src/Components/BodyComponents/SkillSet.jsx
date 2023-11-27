@@ -1,20 +1,27 @@
 import React, { useState } from "react";
 import { skills } from "../../Constants/Constants";
 import SkillList from "./SkillList";
+import { useSelector } from "react-redux";
 
 const SkillSet = () => {
   const [buttonClicked, setbuttonClicked] = useState(false);
   const resumeClicked = () => {
     setbuttonClicked(!buttonClicked);
   };
+  const dark = useSelector((AppStore) => AppStore.textvisible);
   return (
-    <div className="m-6 " id="skills">
-      <div className="flex justify-between bg-black">
+    <div
+      className={`m-6  border border-black text-white ${
+        dark ? "bg-black" : " bg-purple-600"
+      }`}
+      id="skills"
+    >
+      <div className="flex justify-between">
         {skills.map((s, index) => (
           <SkillList skills={s} key={index} />
         ))}
       </div>
-      <div className="mt-[8rem] flex justify-center">
+      <div className="mt-[8rem] flex justify-center ">
         <h1 className=" absolute text-2xl">Download My resume</h1>
         <div>
           <button onClick={resumeClicked}>
